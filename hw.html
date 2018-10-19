@@ -1,43 +1,85 @@
 <html>
 <style>
-.registr {text-align: center; color:red; margin-bottom:0px;}
-.box { border-style:solid; border-color:white; border-width:5px; text-align:center;}
-.mb {background-color:#000; text-align:center; margin:100px 170px 0px 170px;padding:0px 0px 0px 0px}
-.Gryd {margin:-10px -70px 0px -10px; width:400px}
-.img {height:1000px; width: 1000px}
-.lb {background-color:#0f0; color:#fff; padding:50px 20px 400px 0px; margin:30px 450px 0px 0px;text-align:left;}
-.rb {background-color:#00f; margin:0px 0px 0px 535px; padding:100px 0px 0px 0px; }
-div{
-width:108px;
-height:108px;
-background-color: red;
--webkit-animation-name:123;
--webkit-animation-duration:5s;
+.top {
+background-color: #FFFF00;
+border:2px #000 solid;
+padding:10px;
+margin:0px;
+display:flex;
+justify-content:space-around;
+flex-direction:row;
+align-items:stretch;
 }
-@keyframes 123{
-from{background-color:red;}
-to{background-color:blue;}}
+.middle{
+background-color: #FFF;
+margin:5px 0px 0px 0px;
+display:grid;
+color:white;
+grid-template-columns:350px 1fr;
+grid-template-rows:100%;
+grid-column-gap:10px;
+
+}
+img{
+width:75px;
+height:75px;
+padding:5px;
+justify-content:flex-start;
+}
+.button_size{
+
+}
+.button-1{
+margin:30px;
+border:3px #0F0 solid;
+background-color:#F00;
+}
+.button-2{
+margin:30px;
+border:3px #0F0 solid;
+background-color:#F00;
+}
+.button-3{
+margin:30px 20px 30px 15px;
+border:3px #0F0 solid;
+background-color:#F00;
+
+}
+.box1{
+background-color:blue;
+display:flex;
+align-items: flex-start;
+flex-direction:column;
+padding:20px;
+}
+.box2{
+background-color:green;
+text-align:center;
+}
+.top_c{
+}
 </style>
 <head>
+<title>Working</title>
 </head>
 <body>
-
-<div class="box mb">
-
-<h1 class="registr">Registration to buy place in graveyard</h1>
-<h1 class="lb">
-
-<ul>
-<li>First Name:
-<input type="text" placeholder="First Name"></li>
-<li>Last Name:</li>
-<li>E-mail:</li>
-<li>Phone Number:</li>
-
-</ul>
-
-</h1>
-<h1 class="rb">123</h1>
+<div class="top">
+ <div><img src="14176838149949.png"></div>
+ <div class="button-1"><button>Something</div>
+ <div class="button-2"><button>Registration</div>
+ <div class="button-3"><button>Sign in</div>
+ 
 </div>
+<div class="middle">
+   <div class="box1">
+    <p>Content</p>
+    <ul>
+      <li><button type="submit">Brain</button></li>
+      <li><button ></button></li>
+    </ul>
+   </div>
+   <div class="box2">link</div>
+</div>
+
 </body>
 </html>
